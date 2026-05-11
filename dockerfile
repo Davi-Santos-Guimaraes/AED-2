@@ -1,5 +1,5 @@
 # Usa uma imagem leve do JDK 17
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jdk
 
 # Define a pasta de trabalho dentro do container
 WORKDIR /app
